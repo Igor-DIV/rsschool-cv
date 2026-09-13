@@ -43,6 +43,15 @@
   line-height: 120%;
 }
 
+.h3 {
+  font-family: Roboto-Bold, sans-serif;
+  color: var(--dark);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
 .paragraph {
   font-family: Roboto-Regular, sans-serif;
   font-size: 1.125rem;
@@ -214,4 +223,90 @@ body {
   color: var(--darkBlue);
   background: var(--lightBlue);
   font-size: 0.8125rem;
+}
+
+.experience-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1.75rem;
+}
+
+.axp-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+}
+
+.axp-card {
+  display: flex;
+  padding: 2rem;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 1.25rem;
+  background: var(--white);
+}
+
+.exp-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+}
+
+.exp-card-date {
+  color: var(--darkBlue);
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.axp-card-body {
+  display: flex;
+  max-width: 18rem;
+  padding-top: 1rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0.75rem;
+  flex: 1 0 0;
+}
+
+.exp-card-company {
+  color: var(--lightGrey);
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.lang-edu-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  padding: 2rem 2.5rem;
+  border-radius: 1.5rem;
+  background: var(--darkBlue);
+}
+
+.lang-edu-title-wrap .h2 {
+  color: var(--white);
+}
+
+.edu-wrap .paragraph {
+  color: var(--white);
+}
+
+.lang-wrap .paragraph {
+  color: var(--white);
 }
