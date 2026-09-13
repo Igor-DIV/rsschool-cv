@@ -370,6 +370,17 @@ body {
   justify-content: space-between;
 }
 
+.footer-link {
+  color: var(--lightGrey);
+  font-family: Roboto-Regular, sans-serif;
+  text-decoration: none;
+  transition: color 0.25s ease-in-out;
+}
+
+.footer-link:hover {
+  color: var(--darkBlue);
+}
+
 .rs-link {
   display: flex;
   align-items: center;
