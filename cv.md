@@ -52,4 +52,4 @@ Bachelor of Jurisprudence · 2010–2014
 
 * *3D CAD*
 * *3D print*
-* *Electr*
+* *Electronics*
